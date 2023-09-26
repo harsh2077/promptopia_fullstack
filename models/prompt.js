@@ -4,8 +4,7 @@ const PromptSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'User',
   },
-  prompt: {
-    type: String,
+  prompt: {    type: String,
     required: [true, 'Prompt is required.'],
   },
   tag: {
