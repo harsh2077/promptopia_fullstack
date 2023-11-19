@@ -12,6 +12,7 @@ const PromptCardList = ({ data, handleTagClick }) => {
         />
       ))}
     </div>
+    
   );
 };
 const Feed = () => {
